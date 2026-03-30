@@ -10,6 +10,8 @@ public class BookService {
 
     protected BookRepositoryInterface bookRepo;
 
+    public BookService() {}
+
     /**
      * Constructeur permettant d'injecter l'accès aux données
      * @param bookRepo objet implémentant l'interface d'accès aux données
